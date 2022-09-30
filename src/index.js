@@ -4,14 +4,16 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {ChakraProvider} from "@chakra-ui/react";
-import theme from './Theme/themeConfig';
+// import theme from './Theme/themeConfig.js';
+// import textstyle from './Theme/textstyle';
 // import { extendTheme } from "@chakra-ui/react"
 
 // 2. Call `extendTheme` and pass your custom values
 // const theme = extendTheme({
 //   colors: {
 //     brand: {
-//      color:"blue"
+//      color:"blue",
+//      background:"black"
 //     },
 //   },
 // })
@@ -19,12 +21,12 @@ import theme from './Theme/themeConfig';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-  <ChakraProvider theme={theme}>
+  // <React.StrictMode>
+  <ChakraProvider>
   <App />
   </ChakraProvider>
    
-  </React.StrictMode>
+  // </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function

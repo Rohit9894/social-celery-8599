@@ -36,3 +36,28 @@
     transform: rotate(360deg);
   }
 }
+/* *{
+  font-family: " 'Fira Sans', sans-serif";
+} */
+.app_button{
+
+    background-color:#282c34;
+    color: white;
+    border-radius: 3px;
+}
+.login_rp{
+  background-image: url("https://www.campaignmonitor.com/wp-content/themes/cm-theme/assets/images/signup/signup-light.jpg");
+  height: 150vh;
+  background-size: cover;
+  background-position: center;
+}
+@media only screen and (max-width: 550px){
+  .login_rp{
+    background: white;
+  }
+}
+.app_button{
+  background-color: #7856ff;
+  color: white;
+  border-radius: 3px;
+}

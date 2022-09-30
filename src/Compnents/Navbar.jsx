@@ -124,7 +124,8 @@ function out(e) {
                {/* --------------------Dropdown----------------------- */}
              {navVisible &&  <Flex 
 
-               h="80vh"
+               h="100vh"
+             
                direction="column"
                textAlign="left"
                display={["block","none"]}
@@ -132,7 +133,8 @@ function out(e) {
               border="2px solid black"
               pl="20px"
               bg="rgba(17,19,36,0.8)"
-              position="absolute"
+              position="relative"
+              top="80px"
               color="white"
              >
               <Text fontSize="20px" mt="15px">Pricing</Text>

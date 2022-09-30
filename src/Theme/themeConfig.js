@@ -1,6 +1,6 @@
 import { extendTheme } from "@chakra-ui/react";
-import textstyle from "./textStyles";
+import textStyles from "./textStyles";
 
-const theme = extendTheme({ textstyle });
+const theme = extendTheme({ textStyles });
 
 export default theme;
