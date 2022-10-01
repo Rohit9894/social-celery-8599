@@ -4,7 +4,8 @@
 
 import './App.css';
 // import Home from './Pages/Home';
-import Login from './Pages/Login';
+
+import Resources from './Pages/Resources';
 
 
 function App() {
@@ -12,7 +13,7 @@ function App() {
     <div className="App">
   
     {/* <Home/> */}
-    <Login/>
+    <Resources/>
      
 
    
