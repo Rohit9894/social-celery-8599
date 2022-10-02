@@ -2,7 +2,7 @@ import { Box, Button, Flex, Heading, Img,Text } from '@chakra-ui/react'
 import React from 'react'
 import Footer from '../Compnents/Footer'
 import Navbar from '../Compnents/Navbar'
-import "./Home.css"
+
 
 
 const hover={

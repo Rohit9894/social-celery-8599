@@ -4,6 +4,7 @@ import Footer from '../Compnents/Footer'
 import { Box, Flex, Heading, Text } from '@chakra-ui/react'
 import Accord from '../Parts/Resources/Accord'
 import Poster from '../Parts/Resources/Poster'
+import GridData from '../Parts/Resources/GridData'
 const hover={
     // borderBottom:"4px solid #7856ff",
     textDecoration:"underline",
@@ -49,6 +50,9 @@ function Resources() {
                 </Flex>
                 <Box  display={["block","none"]}><Accord/></Box>
                 <Poster/>
+                <GridData/>
+                <Footer/>
+                
             </Box>
         </div>
     )

@@ -3,21 +3,22 @@
 
 
 import './App.css';
-// import Home from './Pages/Home';
+import AllRoutes from './Pages/AllRoutes';
+// import Resources from './Pages/Resources';
+// // import SignUp from './Pages/SignUp';
+// import SingleData from './Pages/SingleData';
+// // import Resources from './Pages/Resources';
 
-import Resources from './Pages/Resources';
+
+
 
 
 function App() {
   return (
     <div className="App">
-  
-    {/* <Home/> */}
-    <Resources/>
-     
-
-   
-    </div>
+  <AllRoutes/>
+   {/* <Resources/> */}
+     </div>
   );
 }
 
